@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/0x4c/blog</id>
+    <id>https://flabat.github.io/0x4c/blog</id>
     <title>0x4c Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-04-03T00:07:43.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/0x4c/blog"/>
+    <link rel="alternate" href="https://flabat.github.io/0x4c/blog"/>
     <subtitle>0x4c Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/0x4c/img/favicon.ico</icon>
+    <icon>https://flabat.github.io/0x4c/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The Bitter Lesson (And Why Your Clever AI Trick is Probably Doomed)]]></title>
+        <id>https://flabat.github.io/0x4c/blog/the-bitter-lesson</id>
+        <link href="https://flabat.github.io/0x4c/blog/the-bitter-lesson"/>
+        <updated>2025-04-03T00:07:43.000Z</updated>
+        <summary type="html"><![CDATA[Alright, gather 'round, fellow AI enthusiasts, data scientists, and anyone who's ever proudly declared, "My algorithm is so much smarter than brute force!" Today, we're talking about something called "The Bitter Lesson," coined by the venerable Rich Sutton. And let me tell you, it's less of a gentle nudge and more of a cosmic wedgie for anyone who thinks their handcrafted AI feature is the key to unlocking artificial general intelligence.]]></summary>
+        <content type="html"><![CDATA[<p>Alright, gather 'round, fellow AI enthusiasts, data scientists, and anyone who's ever proudly declared, "My algorithm is <em>so</em> much smarter than brute force!" Today, we're talking about something called "The Bitter Lesson," coined by the venerable Rich Sutton. And let me tell you, it's less of a gentle nudge and more of a cosmic wedgie for anyone who thinks their handcrafted AI feature is the key to unlocking artificial general intelligence.</p>
+<p>Picture this: You spend months, maybe years, meticulously crafting the perfect knowledge representation for your AI. You build intricate symbolic logic systems, design elegant ontologies, and fine-tune heuristics based on deep domain expertise. You feel like Dr. Frankenstein, but, you know, with less grave-robbing and more Python libraries. Your creation is beautiful, nuanced, and understands the problem <em>so well</em>.</p>
+<p>Then, along comes Chad. Chad didn't spend years understanding the nuances. Chad found a bigger server rack, threw a metric ton of data at a relatively simple, general-purpose learning algorithm (think deep learning before it was cool, or maybe just <em>more</em> deep learning now), cranked up the compute, and went for a long lunch.</p>
+<p>Guess whose AI performs better? Yeah. It's Chad's. Every. Single. Time.</p>
+<p>That, my friends, is the Bitter Lesson in a nutshell. Sutton observed that over decades of AI research, the approaches that ultimately win out aren't the ones based on clever human insights or intricate domain knowledge baked into the algorithm. Nope. The winners are the ones that leverage <strong>general methods</strong> combined with <strong>massive amounts of computation</strong>. Scale beats smarts. Brute force, fueled by Moore's Law (or whatever cloud provider's invoice you can stomach), eventually crushes elegant, human-designed complexity.</p>
+<p>It's bitter because it feels like our intelligence, our creativity, our <em>understanding</em> should count for more. We want to believe that crafting the perfect algorithm is like composing a symphony. The Bitter Lesson suggests it's more like realizing the loudest orchestra wins, regardless of whether they're playing Mozart or just banging pots and pans really, <em>really</em> hard, but with <em>billions</em> of pots and pans.</p>
+<p>Think about it. Chess? Deep Blue didn't "understand" chess like Kasparov. It calculated bazillions of moves. Go? AlphaGo used deep learning and massive search, not ancient Go proverbs. Language translation? Gigantic neural networks trained on the entire internet, not painstakingly curated grammar rules. Image recognition? More layers, more data, more GPUs!</p>
+<p>So, what's a clever AI researcher to do? Give up and become a professional GPU wrangler? Well, maybe not <em>entirely</em>. Human ingenuity is still crucial for designing those general methods, figuring out <em>how</em> to scale them, and defining the problems in the first place. But the lesson suggests we should focus less on encoding our <em>own</em> knowledge directly into the system and more on creating systems that can <em>learn</em> that knowledge (and much more) from vast amounts of data and computation.</p>
+<p>It's humbling. It's frustrating. It makes you want to throw your carefully tuned hyperparameters out the window. But hey, at least Chad seems happy with his giant server rack. Maybe he'll let us borrow some compute time... if we ask nicely? Or maybe we just need to find an even <em>bigger</em> pile of pots and pans.</p>]]></content>
+        <author>
+            <name>Fabian Labat</name>
+            <uri>https://fabianlabat.com</uri>
+        </author>
+        <category label="LLMs" term="LLMs"/>
+        <category label="compute" term="compute"/>
+        <category label="scaling" term="scaling"/>
+        <category label="humor" term="humor"/>
+        <category label="AI" term="AI"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/0x4c/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/0x4c/blog/welcome"/>
+        <id>https://flabat.github.io/0x4c/blog/welcome</id>
+        <link href="https://flabat.github.io/0x4c/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
         <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
@@ -23,7 +48,7 @@
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/0x4c/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://flabat.github.io/0x4c/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
         <author>
@@ -40,8 +65,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/0x4c/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/0x4c/blog/mdx-blog-post"/>
+        <id>https://flabat.github.io/0x4c/blog/mdx-blog-post</id>
+        <link href="https://flabat.github.io/0x4c/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
@@ -58,8 +83,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/0x4c/blog/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/0x4c/blog/long-blog-post"/>
+        <id>https://flabat.github.io/0x4c/blog/long-blog-post</id>
+        <link href="https://flabat.github.io/0x4c/blog/long-blog-post"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
         <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -89,8 +114,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/0x4c/blog/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/0x4c/blog/first-blog-post"/>
+        <id>https://flabat.github.io/0x4c/blog/first-blog-post</id>
+        <link href="https://flabat.github.io/0x4c/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>

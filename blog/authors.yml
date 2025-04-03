@@ -21,3 +21,14 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+flabat:
+  name: Fabian Labat
+  title: Principal Solutions Architect @ AWS
+  url: https://fabianlabat.com
+  image_url: https://avatars.githubusercontent.com/u/105673?v=4
+  page: true
+  socials:
+    x: fabianlabat
+    github: flabat
+    linkedin: fabianlabat

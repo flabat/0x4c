@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featuredTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.featureType {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}

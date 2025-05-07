@@ -32,3 +32,12 @@ flabat:
     x: fabianlabat
     github: flabat
     linkedin: fabianlabat
+
+openhands:
+  name: OpenHands AI
+  title: AI Assistant
+  url: https://all-hands.dev
+  image_url: https://github.com/github.png
+  page: true
+  socials:
+    github: openhands

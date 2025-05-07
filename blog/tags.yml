@@ -11,9 +11,44 @@ hello:
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Articles about Docusaurus features and usage
 
 hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides to help you learn
+
+beginners:
+  label: Beginners
+  permalink: /beginners
+  description: Content specifically designed for newcomers
+
+LLMs:
+  label: LLMs
+  permalink: /llms
+  description: Articles about Large Language Models and their applications
+
+compute:
+  label: Compute
+  permalink: /compute
+  description: Discussions about computational resources in AI
+
+scaling:
+  label: Scaling
+  permalink: /scaling
+  description: Topics related to scaling AI systems and algorithms
+
+humor:
+  label: Humor
+  permalink: /humor
+  description: Lighthearted and humorous content about technology
+
+AI:
+  label: AI
+  permalink: /ai
+  description: Articles about Artificial Intelligence research and applications

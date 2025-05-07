@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import FeaturedContent from '@site/src/components/FeaturedContent';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -21,7 +22,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
+          </Link>
+          <Link
+            className="button button--outline button--lg button--primary"
+            to="/blog">
+            Read the Blog
           </Link>
         </div>
       </div>
@@ -38,6 +44,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <FeaturedContent />
       </main>
     </Layout>
   );

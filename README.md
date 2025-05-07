@@ -1,6 +1,14 @@
-# Website
+# Docusaurus Demo Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+## Sample Content
+
+This repository includes sample content to help you get started with Docusaurus:
+
+- **Blog Posts**: Check out the [Getting Started with Docusaurus](/blog/getting-started-with-docusaurus) blog post to learn about key features.
+- **Documentation**: Explore the [Advanced Features](/docs/advanced-features) documentation to learn about custom React components, versioned documentation, internationalization, and more.
+- **Custom Components**: The site includes a custom `FeaturedContent` component that showcases content on the homepage.
 
 ### Installation
 

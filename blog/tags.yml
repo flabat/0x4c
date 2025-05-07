@@ -11,9 +11,19 @@ hello:
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Articles about Docusaurus features and usage
 
 hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides to help you learn
+
+beginners:
+  label: Beginners
+  permalink: /beginners
+  description: Content specifically designed for newcomers

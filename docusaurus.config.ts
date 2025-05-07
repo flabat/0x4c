@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '0x4c',
-  tagline: 'LLMs are cool',
+  title: 'Docusaurus Demo',
+  tagline: 'A modern documentation site for your projects',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '0x4c',
+      title: 'Docusaurus Demo',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -78,8 +78,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
+        {to: '/docs/advanced-features', label: 'Advanced Features', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/flabat/0x4c',
@@ -95,8 +96,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
+            },
+            {
+              label: 'Advanced Features',
+              to: '/docs/advanced-features',
             },
           ],
         },
@@ -123,6 +128,10 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
+            },
+            {
+              label: 'Getting Started with Docusaurus',
+              to: '/blog/getting-started-with-docusaurus',
             },
             {
               label: 'GitHub',

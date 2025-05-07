@@ -10,32 +10,28 @@ Discover the advanced features of Docusaurus that can help you create a more pow
 
 Docusaurus allows you to use custom React components in your Markdown files using MDX. This enables you to create interactive and dynamic content within your documentation.
 
+Here's an example of using tabs in your documentation:
+
 ```jsx
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="js" label="JavaScript">
-    ```js
     function helloWorld() {
       console.log('Hello, world!');
     }
-    ```
   </TabItem>
   <TabItem value="py" label="Python">
-    ```py
     def hello_world():
       print("Hello, world!")
-    ```
   </TabItem>
   <TabItem value="java" label="Java">
-    ```java
     class HelloWorld {
       public static void main(String[] args) {
         System.out.println("Hello, world!");
       }
     }
-    ```
   </TabItem>
 </Tabs>
 ```

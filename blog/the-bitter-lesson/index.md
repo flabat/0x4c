@@ -7,6 +7,8 @@ tags: [LLMs, compute, scaling, humor, AI]
 
 Alright, gather 'round, fellow AI enthusiasts, data scientists, and anyone who's ever proudly declared, "My algorithm is *so* much smarter than brute force!" Today, we're talking about something called "The Bitter Lesson," coined by the venerable Rich Sutton. And let me tell you, it's less of a gentle nudge and more of a cosmic wedgie for anyone who thinks their handcrafted AI feature is the key to unlocking artificial general intelligence.
 
+<!-- truncate -->
+
 Picture this: You spend months, maybe years, meticulously crafting the perfect knowledge representation for your AI. You build intricate symbolic logic systems, design elegant ontologies, and fine-tune heuristics based on deep domain expertise. You feel like Dr. Frankenstein, but, you know, with less grave-robbing and more Python libraries. Your creation is beautiful, nuanced, and understands the problem *so well*.
 
 Then, along comes Chad. Chad didn't spend years understanding the nuances. Chad found a bigger server rack, threw a metric ton of data at a relatively simple, general-purpose learning algorithm (think deep learning before it was cool, or maybe just *more* deep learning now), cranked up the compute, and went for a long lunch.
